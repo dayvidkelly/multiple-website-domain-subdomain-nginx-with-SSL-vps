@@ -210,7 +210,7 @@ The result should be:
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
-Run `ln -s /etc/ngnix/conf.d/domain.conf /etc/nginx/sites-enabled/` to enable to website.
+Run `ln -s /etc/nginx/conf.d/domain.conf /etc/nginx/sites-enabled/` to enable to website.
 
 And now, you can reload with `service nginx reload`.
 
